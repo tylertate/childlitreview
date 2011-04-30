@@ -21,14 +21,14 @@ footer {
   display: block;
 }
 body {
-  font-family: sans-serif;
+  font-family: Georgia;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: Georgia;
+  font-family: sans-serif;
 }
 body {
   border-top: 5px solid #ccc;
@@ -39,7 +39,7 @@ body {
   margin: 0 -1.3888888888888888%;
   width: 1080px;
   margin: 0 auto;
-  padding: 2em 0;
+  padding: 3em 0;
 }
 #mainbody #sidebar {
   overflow: hidden;
@@ -49,18 +49,17 @@ body {
   _display: inline;
 }
 #mainbody #sidebar h1 {
+  width: 9em;
+  height: 6em;
+  padding: 1.5em 0;
+  font: italic normal normal 1.75em/1.75em Georgia, serif;
+  text-align: center;
   color: white;
   background-color: red;
-  width: 250px;
-  height: 150px;
-  padding: 50px 0;
-  line-height: 50px;
-  text-align: center;
-  font-weight: normal;
-  font-size: 1.25em;
-  border-radius: 125px;
-  -moz-border-radius: 125px;
-  -webkit-border-radius: 125px;
+  -webkit-transform: rotate(-10deg);
+  border-radius: 4.5em;
+  -moz-border-radius: 4.5em;
+  -webkit-border-radius: 4.5em;
 }
 #mainbody #content {
   overflow: hidden;

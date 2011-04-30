@@ -16,10 +16,10 @@ nav, aside, header, article, section, footer { display: block; }
 //////////
 
 body {
-	font-family: sans-serif;
+	font-family: Georgia;
 }
 h1,h2,h3,h4,h5 {
-	font-family: Georgia;
+	font-family: sans-serif;
 }
 
 
@@ -35,22 +35,21 @@ body {
 	.row;
 	width: 1080px;
 	margin: 0 auto;
-	padding: 2em 0;
+	padding: 3em 0;
 	
 	#sidebar {
 		.grid(4);
 		
 		h1 {
+			width: 9em;
+			height: 6em;
+			padding: 1.5em 0;
+			font: italic normal normal 1.75em/1.75em Georgia, serif;
+			text-align: center;
 			color: white;
 			background-color: red;
-			width: 250px;
-			height: 150px;
-			padding: 50px 0;
-			line-height: 50px;
-			text-align: center;
-			font-weight: normal;
-			font-size: 1.25em;
-			.rounded-corners(125px);
+			-webkit-transform: rotate(-10deg);
+			.rounded-corners(4.5em);
 		}
 		
 	}
