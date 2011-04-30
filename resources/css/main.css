@@ -68,6 +68,9 @@ body {
   margin: 0 1.3888888888888888%;
   _display: inline;
 }
+article {
+  padding-left: 2.5em;
+}
 article header {
   overflow: hidden;
   margin-bottom: 1em;
@@ -78,9 +81,10 @@ article header p {
 }
 article header p.rating {
   float: left;
-  margin-left: -2em;
+  margin-left: -2.5em;
   width: 1.75em;
   height: 1.75em;
+  font-size: 1.25em;
   line-height: 1.75em;
   font-family: Georgia;
   color: white;
