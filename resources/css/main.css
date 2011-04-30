@@ -76,7 +76,21 @@ article header p {
   margin: 0;
   color: #666;
 }
-article header .on {
+article header p.rating {
+  float: left;
+  margin-left: -2em;
+  width: 1.75em;
+  height: 1.75em;
+  line-height: 1.75em;
+  font-family: Georgia;
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-radius: 0.875em;
+  -moz-border-radius: 0.875em;
+  -webkit-border-radius: 0.875em;
+}
+article header p.on {
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 1px;

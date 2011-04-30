@@ -7,10 +7,11 @@ bodyId: home
 {% for post in site.categories.blog %}
 	<article>
 		<header>
+			<p class="rating">5</p>
 			<p class="on">Reviewed on {{ post.date | date: "%B %d, %Y" }}</p>
 			<h2>{{ post.title }}</h2>
-			<p class="author">by {{ post.author }}</p>
-			<p class="illustrator">by {{ post.illustrator }}</p>
+			<p class="author">written by {{ post.author }}</p>
+			<p class="illustrator">illustrated by {{ post.illustrator }}</p>
 		</header>
 		<section class="content">
 			{{ post.content }}
