@@ -11,6 +11,18 @@ p { margin-bottom: 20px; }
 nav, aside, header, article, section, footer { display: block; }
 
 
+//////////
+// type //
+//////////
+
+body {
+	font-family: sans-serif;
+}
+h1,h2,h3,h4,h5 {
+	font-family: Georgia;
+}
+
+
 ///////////
 // layout //
 ///////////
@@ -19,9 +31,19 @@ nav, aside, header, article, section, footer { display: block; }
 	.row;
 	width: 1080px;
 	margin: 0 auto;
+	padding: 2em 0;
 	
 	#sidebar {
 		.grid(4);
+		
+		h1 {
+			color: white;
+			background-color: red;
+			width: 250px;
+			height: 250px;
+			.rounded-corners(125px);
+		}
+		
 	}
 	#content {
 		.grid(8);

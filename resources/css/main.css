@@ -20,12 +20,23 @@ section,
 footer {
   display: block;
 }
+body {
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Georgia;
+}
 #mainbody {
   overflow: hidden;
   width: 102.77777777777777%;
   margin: 0 -1.3888888888888888%;
   width: 1080px;
   margin: 0 auto;
+  padding: 2em 0;
 }
 #mainbody #sidebar {
   overflow: hidden;
@@ -33,6 +44,15 @@ footer {
   width: 30.555555555555557%;
   margin: 0 1.3888888888888888%;
   _display: inline;
+}
+#mainbody #sidebar h1 {
+  color: white;
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  -moz-border-radius: 125px;
+  -webkit-border-radius: 125px;
 }
 #mainbody #content {
   overflow: hidden;
