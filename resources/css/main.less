@@ -18,14 +18,15 @@ nav, aside, header, article, section, footer { display: block; }
 body {
 	font-family: Georgia;
 }
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,
+article header {
 	font-family: sans-serif;
 }
 
 
-///////////
+////////////
 // layout //
-///////////
+////////////
 
 body {
 	border-top: 5px solid #ccc;
@@ -46,7 +47,7 @@ body {
 			font: italic normal normal 1.75em/1.75em Georgia, serif;
 			text-align: center;
 			color: white;
-			background-color: red;
+			background-color: 00cccc;
 			-webkit-transform: rotate(-10deg);
 			.rounded-corners(4.5em);
 		}
@@ -54,5 +55,41 @@ body {
 	}
 	#content {
 		.grid(8);
+	}
+}
+
+
+////////////
+// review //
+////////////
+
+article {
+	header {
+		p {
+			margin: 0;
+			color: #666;
+		}
+	
+		.type {
+			font-size: 0.85em;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+		}
+		h2 {
+			font-size: 1.75em;
+			
+			span.author {
+				font-size: 0.8em;
+			}
+		}
+		.on {
+			font-size: 0.9em;
+		}
+	}
+	section {
+		p {
+			line-height: 1.3em;
+			color: #333;
+		}
 	}
 }
