@@ -20,20 +20,3 @@ bodyId: home
 		</section>
 	</article>
 {% endfor %}
-
-{% for post in site.categories.blog %}
-	<article>
-		<header>
-			<p class="on">Reviewed on {{ post.date | date: "%B %d, %Y" }}</p>
-			<p class="rating">5</p>
-			<h2>{{ post.title }}</h2>
-			<p class="by">
-				<span class="author">Written by {{ post.author }},</span>
-				<span class="illustrator">illustrated by {{ post.illustrator }}</span>
-			</p>
-		</header>
-		<section class="content">
-			{{ post.content }}
-		</section>
-	</article>
-{% endfor %}
