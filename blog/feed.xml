@@ -1,0 +1,19 @@
+---
+layout: rss
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>TwigKit</title>
+		<description>A blog about the user experience of search and the technology driving it.</description>
+		<link>http://www.twigkit.com/blog/</link>
+		{% for post in site.posts %}
+			<item>
+				<title>{{ post.title }}</title>
+				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+				<description>{{ post.content | xml_escape }}</description>
+				<link>http://www.twigkit.com{{ post.url }}</link>
+			</item>
+		{% endfor %}
+	</channel>
+</rss>
