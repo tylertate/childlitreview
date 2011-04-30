@@ -30,6 +30,9 @@ h4,
 h5 {
   font-family: Georgia;
 }
+body {
+  border-top: 5px solid #ccc;
+}
 #mainbody {
   overflow: hidden;
   width: 102.77777777777777%;
@@ -49,8 +52,9 @@ h5 {
   color: white;
   background-color: red;
   width: 250px;
-  height: 250px;
-  line-height: 250px;
+  height: 150px;
+  padding: 50px 0;
+  line-height: 50px;
   text-align: center;
   font-weight: normal;
   font-size: 1.25em;
