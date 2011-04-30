@@ -64,7 +64,7 @@ body {
   margin: 0 1.0416666666666665%;
   _display: inline;
 }
-#mainbody #footer {
+#mainbody footer {
   height: 100px;
   background-color: #ccc;
 }
