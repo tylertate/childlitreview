@@ -47,7 +47,7 @@ body {
 			font: italic normal normal 1.75em/1.75em Georgia, serif;
 			text-align: center;
 			color: white;
-			background-color: 00cccc;
+			background-color: #00cccc;
 			-webkit-transform: rotate(-10deg);
 			.rounded-corners(4.5em);
 		}
@@ -65,25 +65,29 @@ body {
 
 article {
 	header {
+		overflow: hidden;
+		margin-bottom: 1em;
+		
 		p {
 			margin: 0;
 			color: #666;
 		}
 	
-		.type {
-			font-size: 0.85em;
+		.on {
+			font-size: 0.8em;
 			text-transform: uppercase;
 			letter-spacing: 1px;
 		}
 		h2 {
 			font-size: 1.75em;
-			
-			span.author {
-				font-size: 0.8em;
-			}
 		}
-		.on {
-			font-size: 0.9em;
+			
+		p.author {
+			float: left;
+			margin-right: 20px;
+		}
+		p.illustrator {
+			float: left;
 		}
 	}
 	section {

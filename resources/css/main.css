@@ -55,7 +55,7 @@ body {
   font: italic normal normal 1.75em/1.75em Georgia, serif;
   text-align: center;
   color: white;
-  background-color: 00cccc;
+  background-color: #00cccc;
   -webkit-transform: rotate(-10deg);
   border-radius: 4.5em;
   -moz-border-radius: 4.5em;
@@ -68,23 +68,28 @@ body {
   margin: 0 1.3888888888888888%;
   _display: inline;
 }
+article header {
+  overflow: hidden;
+  margin-bottom: 1em;
+}
 article header p {
   margin: 0;
   color: #666;
 }
-article header .type {
-  font-size: 0.85em;
+article header .on {
+  font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 article header h2 {
   font-size: 1.75em;
 }
-article header h2 span.author {
-  font-size: 0.8em;
+article header p.author {
+  float: left;
+  margin-right: 20px;
 }
-article header .on {
-  font-size: 0.9em;
+article header p.illustrator {
+  float: left;
 }
 article section p {
   line-height: 1.3em;
