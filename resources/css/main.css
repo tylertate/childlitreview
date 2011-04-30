@@ -1,10 +1,7 @@
 body {
-  padding: 0 1.0416666666666665%;
+  padding: 0 1.3888888888888888%;
   margin: 0;
 }
-/* ========= */
-/* = reset = */
-/* ========= */
 * {
   margin: 0;
   padding: 0;
@@ -22,4 +19,25 @@ article,
 section,
 footer {
   display: block;
+}
+#mainbody {
+  overflow: hidden;
+  width: 102.77777777777777%;
+  margin: 0 -1.3888888888888888%;
+  width: 1080px;
+  margin: 0 auto;
+}
+#mainbody #sidebar {
+  overflow: hidden;
+  float: left;
+  width: 30.555555555555557%;
+  margin: 0 1.3888888888888888%;
+  _display: inline;
+}
+#mainbody #content {
+  overflow: hidden;
+  float: left;
+  width: 63.888888888888886%;
+  margin: 0 1.3888888888888888%;
+  _display: inline;
 }

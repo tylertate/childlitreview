@@ -1,11 +1,29 @@
 @import '_grid.less';
 @import '_mixins.less';
 
-/* ========= */
-/* = reset = */
-/* ========= */
+///////////
+// reset //
+///////////
 
 * { margin: 0; padding: 0; }
 a img, form, fieldset { border: none; }
 p { margin-bottom: 20px; }
 nav, aside, header, article, section, footer { display: block; }
+
+
+///////////
+// layout //
+///////////
+
+#mainbody {
+	.row;
+	width: 1080px;
+	margin: 0 auto;
+	
+	#sidebar {
+		.grid(4);
+	}
+	#content {
+		.grid(8);
+	}
+}
