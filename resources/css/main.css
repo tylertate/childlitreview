@@ -94,7 +94,9 @@ article header p.on {
   letter-spacing: 1px;
 }
 article header h2 {
+  font-family: Georgia;
   font-size: 1.75em;
+  font-style: italic;
 }
 article section p {
   line-height: 1.3em;
