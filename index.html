@@ -11,8 +11,8 @@ bodyId: home
 			<p class="rating">5</p>
 			<h2>{{ post.title }}</h2>
 			<p class="by">
-				<span class="author">Written by <strong>{{ post.author }}</strong>,</span>
-				<span class="illustrator">illustrated by <strong>{{ post.illustrator }}</strong></span>
+				<span class="author">Written by {{ post.author }},</span>
+				<span class="illustrator">illustrated by {{ post.illustrator }}</span>
 			</p>
 		</header>
 		<section class="content">
@@ -21,7 +21,6 @@ bodyId: home
 	</article>
 {% endfor %}
 
-
 {% for post in site.categories.blog %}
 	<article>
 		<header>
@@ -29,8 +28,8 @@ bodyId: home
 			<p class="rating">5</p>
 			<h2>{{ post.title }}</h2>
 			<p class="by">
-				<span class="author">Written by <strong>{{ post.author }}</strong>,</span>
-				<span class="illustrator">illustrated by <strong>{{ post.illustrator }}</strong></span>
+				<span class="author">Written by {{ post.author }},</span>
+				<span class="illustrator">illustrated by {{ post.illustrator }}</span>
 			</p>
 		</header>
 		<section class="content">

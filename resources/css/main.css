@@ -64,7 +64,9 @@ body {
   _display: inline;
 }
 article {
-  padding-left: 2.75em;
+  padding: 0 0 1em 2.75em;
+  margin-bottom: 1em;
+  border-top: 1px solid #CCC;
 }
 article header {
   margin-bottom: 1em;
@@ -89,7 +91,7 @@ article header p.rating {
   -webkit-border-radius: 0.875em;
 }
 article header p.on {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 1px;
