@@ -50,8 +50,7 @@ body {
 }
 #mainbody #sidebar h1 {
   width: 9em;
-  height: 6em;
-  padding: 1.5em 0;
+  padding: 1.875em 0;
   font: italic normal normal 1.75em/1.75em Georgia, serif;
   text-align: center;
   color: white;
