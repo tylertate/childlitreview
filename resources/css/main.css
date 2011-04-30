@@ -47,8 +47,8 @@ body {
 #mainbody #sidebar h1 {
   width: 8em;
   margin: 0 auto;
-  padding: 1.5em 0;
-  font: italic normal normal 1.75em/1.75em Georgia, serif;
+  padding: 1.75em 0;
+  font: italic normal normal 1.75em/1.5em Georgia, serif;
   text-align: center;
   color: white;
   background-color: #00cccc;
@@ -63,6 +63,10 @@ body {
   width: 64.58333333333334%;
   margin: 0 1.0416666666666665%;
   _display: inline;
+}
+#mainbody #footer {
+  height: 100px;
+  background-color: #ccc;
 }
 article {
   padding: 1.5em 0 0 2.75em;
