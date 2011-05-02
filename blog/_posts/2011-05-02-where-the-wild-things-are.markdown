@@ -15,6 +15,9 @@ illustrationrating: 5
 storyrating: 5
 moralrating: 2
 rating: 4
+
+amazonus: http://www.amazon.com/gp/product/0060254920/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=chilslitere0b-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0060254920
+amazonuk: http://www.amazon.co.uk/gp/product/0370007727/ref=as_li_tf_tl?ie=UTF8&tag=chilsliterevi-21&linkCode=as2&camp=1634&creative=6738&creativeASIN=0370007727
 ---
 
 "That very night in Max's room a forest grew, and grew, and grew..." Suddenly Max was no longer in his own room, but found himself sailing across the world to the place where the wild things are. Upon his arrival, the wild things hail Max as their king. They share many adventures together until, eventually, Max begins to feel lonely. Despite the wild things begging him to stay, Max sets back off around the world to be where he was loved.

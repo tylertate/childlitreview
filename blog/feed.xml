@@ -5,14 +5,14 @@ layout: rss
 <rss version="2.0">
 	<channel>
 		<title>Children's Literature Review</title>
-		<description></description>
-		<link>http://www.twigkit.com/blog/</link>
+		<description>Helping the savvy parent discover exceptional storytelling and illustration.</description>
+		<link>http://childlitreview.com/</link>
 		{% for post in site.posts %}
 			<item>
 				<title>{{ post.title }}</title>
 				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
 				<description>{{ post.content | xml_escape }}</description>
-				<link>http://www.twigkit.com{{ post.url }}</link>
+				<link>http://childlitreview.com/</link>
 			</item>
 		{% endfor %}
 	</channel>

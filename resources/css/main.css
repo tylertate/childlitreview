@@ -59,14 +59,23 @@ body {
 }
 #mainbody #sidebar p.tagline {
   color: #999;
-  font-size: 1.2em;
-  line-height: 1.33em;
+  font-size: 1.1em;
+  line-height: 2.25em;
+  padding: 0.66em;
+  margin-bottom: 1em;
   font-style: italic;
   text-align: center;
 }
 #mainbody #sidebar p.action {
+  font-size: 0.9em;
   font-family: sans-serif;
   color: #999;
+  text-align: center;
+}
+#mainbody #sidebar p.action a {
+  color: #999;
+}
+#mainbody #sidebar form {
   text-align: center;
 }
 #mainbody #content {
@@ -161,6 +170,7 @@ article section .details ul li h4, article section .details ul li p {
   color: #666;
 }
 article section .details ul li h4 {
-  width: 45%;
-  margin-right: 5%;
+  width: 40%;
+  font-weight: normal;
+  color: #333;
 }

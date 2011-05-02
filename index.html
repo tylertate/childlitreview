@@ -9,7 +9,7 @@ bodyId: home
 		<header>
 			<img src="{{ post.image }}" />
 			<p class="on">Reviewed on {{ post.date | date: "%B %d, %Y" }}</p>
-			<p class="rating">5</p>
+			<p class="rating">{{ post.rating }}</p>
 			<h2>{{ post.title }}</h2>
 			<p class="by">
 				{% if post.author == post.illustrator %}
@@ -22,6 +22,8 @@ bodyId: home
 		</header>
 		<section class="content">
 			{{ post.content }}
+			
+			<p>View on <a href="{{ post.amazonus }}">Amazon.com</a> or <a href="{{ post.amazonuk }}">Amazon.co.uk</a>.</p>
 			
 			<section class="details">
 				<ul>
@@ -47,15 +49,19 @@ bodyId: home
 					</li>
 					<li>
 						<h4>Illustration Rating:</h4>
-						<p>{{ post.illustrationrating }}</p>
+						<p>{{ post.illustrationrating }} out of 5</p>
 					</li>
 					<li>
 						<h4>Story Rating:</h4>
-						<p>{{ post.storyrating }}</p>
+						<p>{{ post.storyrating }} out of 5</p>
 					</li>
 					<li>
 						<h4>Moral Rating:</h4>
-						<p>{{ post.moralrating }}</p>
+						<p>{{ post.moralrating }} out of 5</p>
+					</li>
+					<li>
+						<h4>Overall Rating:</h4>
+						<p>{{ post.rating }} out of 5</p>
 					</li>
 				</ul>
 			</section>
