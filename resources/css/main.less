@@ -42,7 +42,7 @@ body {
 		
 		h1 {
 			width: 8em;
-			margin: 0 auto 3.4em auto;
+			margin: 0 auto 1.5em auto;
 			padding: 1.75em 0;
 			font: italic normal normal 1.75em/1.5em Georgia, serif;
 			text-align: center;
@@ -133,16 +133,30 @@ article {
 			line-height: 1.3em;
 			color: #333;
 		}
-		ul.details {
-			li {
-				display: block;
-				list-style: none outside none;
-				border-bottom: 1px dotted #CCC;
+		.details {
+			.row(12);
+			
+			ul {
+				border-top: 1px dotted #CCC;
+				.grid(8,12);
 				
-				h4, p {
+				li {
 					display: block;
-					float: left;
-					margin: 0 5px 0 0;
+					overflow: hidden;
+					list-style: none outside none;
+					border-bottom: 1px dotted #CCC;
+					padding: 0.25em 0;
+				
+					h4, p {
+						display: block;
+						float: left;
+						margin: 0 5px 0 0;
+						color: #666;
+					}
+					h4 {
+						width: 45%;
+						margin-right: 5%;
+					}
 				}
 			}
 		}

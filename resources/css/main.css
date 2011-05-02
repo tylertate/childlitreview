@@ -46,7 +46,7 @@ body {
 }
 #mainbody #sidebar h1 {
   width: 8em;
-  margin: 0 auto 3.4em auto;
+  margin: 0 auto 1.5em auto;
   padding: 1.75em 0;
   font: italic normal normal 1.75em/1.5em Georgia, serif;
   text-align: center;
@@ -134,13 +134,33 @@ article section p {
   line-height: 1.3em;
   color: #333;
 }
-article section ul.details li {
+article section .details {
+  overflow: hidden;
+  width: 101.19047619047619%;
+  margin: 0 -0.5952380952380952%;
+}
+article section .details ul {
+  border-top: 1px dotted #CCC;
+  overflow: hidden;
+  float: left;
+  width: 65.47619047619048%;
+  margin: 0 0.5952380952380952%;
+  _display: inline;
+}
+article section .details ul li {
   display: block;
+  overflow: hidden;
   list-style: none outside none;
   border-bottom: 1px dotted #CCC;
+  padding: 0.25em 0;
 }
-article section ul.details li h4, article section ul.details li p {
+article section .details ul li h4, article section .details ul li p {
   display: block;
   float: left;
   margin: 0 5px 0 0;
+  color: #666;
+}
+article section .details ul li h4 {
+  width: 45%;
+  margin-right: 5%;
 }
