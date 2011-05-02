@@ -12,6 +12,9 @@ bodyId: home
 			<p class="rating">5</p>
 			<h2>{{ post.title }}</h2>
 			<p class="by">
+				{% if post.author == post.illustrator %}
+					<span class="author">Written &amp; Illustrated by {{ post.author }}</span>
+				{% endif %}
 				<span class="author">Written by {{ post.author }},</span>
 				<span class="illustrator">illustrated by {{ post.illustrator }}</span>
 			</p>
@@ -19,7 +22,7 @@ bodyId: home
 		<section class="content">
 			{{ post.content }}
 			
-			<ul>
+			<ul class="details">
 				<li>
 					<h4>Minimum age:</h4>
 					<p>{{ post.age }}</p>

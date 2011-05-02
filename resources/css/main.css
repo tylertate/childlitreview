@@ -23,6 +23,9 @@ footer {
 body {
   font-family: Georgia;
 }
+a {
+  color: #0CC;
+}
 body {
   border-top: 5px solid #ccc;
 }
@@ -56,13 +59,15 @@ body {
 }
 #mainbody #sidebar p.tagline {
   color: #999;
-  font-size: 1.33em;
+  font-size: 1.2em;
   line-height: 1.33em;
   font-style: italic;
+  text-align: center;
 }
 #mainbody #sidebar p.action {
   font-family: sans-serif;
   color: #999;
+  text-align: center;
 }
 #mainbody #content {
   overflow: hidden;
@@ -81,7 +86,7 @@ footer {
 article {
   padding: 0 0 1.5em 0;
   margin: 0 16.6% 3em 8.3%;
-  border-bottom: 1px dotted #CCC;
+  border-bottom: 1px solid #999;
 }
 article header {
   margin-bottom: 1.5em;
@@ -128,4 +133,14 @@ article header p.by {
 article section p {
   line-height: 1.3em;
   color: #333;
+}
+article section ul.details li {
+  display: block;
+  list-style: none outside none;
+  border-bottom: 1px dotted #CCC;
+}
+article section ul.details li h4, article section ul.details li p {
+  display: block;
+  float: left;
+  margin: 0 5px 0 0;
 }

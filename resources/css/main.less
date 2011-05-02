@@ -18,8 +18,8 @@ nav, aside, header, article, section, footer { display: block; }
 body {
 	font-family: Georgia;
 }
-article header {
-	
+a {
+	color: #0CC;
 }
 
 
@@ -53,13 +53,15 @@ body {
 		}
 		p.tagline {
 			color: #999;
-			font-size: 1.33em;
+			font-size: 1.2em;
 			line-height: 1.33em;
 			font-style: italic;
+			text-align: center;
 		}
 		p.action {
 			font-family: sans-serif;
 			color: #999;
+			text-align: center;
 		}
 		
 	}
@@ -81,7 +83,7 @@ footer {
 article {
 	padding: 0 0 1.5em 0;
 	margin: 0 16.6% 3em 8.3%;
-	border-bottom: 1px dotted #CCC;
+	border-bottom: 1px solid #999;
 	
 	header {
 		margin-bottom: 1.5em;
@@ -130,6 +132,19 @@ article {
 		p {
 			line-height: 1.3em;
 			color: #333;
+		}
+		ul.details {
+			li {
+				display: block;
+				list-style: none outside none;
+				border-bottom: 1px dotted #CCC;
+				
+				h4, p {
+					display: block;
+					float: left;
+					margin: 0 5px 0 0;
+				}
+			}
 		}
 	}
 }
