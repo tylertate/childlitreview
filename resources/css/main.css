@@ -66,14 +66,17 @@ body {
   font-style: italic;
   text-align: center;
 }
-#mainbody #sidebar p.action {
+#mainbody #sidebar p.action, #mainbody #sidebar p.tylertate {
   font-size: 0.9em;
   font-family: sans-serif;
   color: #999;
   text-align: center;
 }
-#mainbody #sidebar p.action a {
+#mainbody #sidebar p.action a, #mainbody #sidebar p.tylertate a {
   color: #999;
+}
+#mainbody #sidebar p.tylertate {
+  margin-top: 2em;
 }
 #mainbody #sidebar form {
   text-align: center;
