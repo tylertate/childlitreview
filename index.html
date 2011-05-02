@@ -18,6 +18,41 @@ bodyId: home
 		</header>
 		<section class="content">
 			{{ post.content }}
+			
+			<ul>
+				<li>
+					<h4>Minimum age:</h4>
+					<p>{{ post.age }}</p>
+				</li>
+				<li>
+					<h4>Reading time:</h4>
+					<p>{{ post.time }}</p>
+				</li>
+				<li>
+					<h4>Book format:</h4>
+					<p>{{ post.format }}</p>
+				</li>
+				<li>
+					<h4>Writing style:</h4>
+					<p>{{ post.style }}</p>
+				</li>
+				<li>
+					<h4>Year of Publication:</h4>
+					<p>{{ post.published }}</p>
+				</li>
+				<li>
+					<h4>Illustration Rating:</h4>
+					<p>{{ post.illustrationrating }}</p>
+				</li>
+				<li>
+					<h4>Story Rating:</h4>
+					<p>{{ post.storyrating }}</p>
+				</li>
+				<li>
+					<h4>Moral Rating:</h4>
+					<p>{{ post.moralrating }}</p>
+				</li>
+			</ul>
 		</section>
 	</article>
 {% endfor %}

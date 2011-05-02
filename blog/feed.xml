@@ -4,8 +4,8 @@ layout: rss
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 	<channel>
-		<title>TwigKit</title>
-		<description>A blog about the user experience of search and the technology driving it.</description>
+		<title>Children's Literature Review</title>
+		<description></description>
 		<link>http://www.twigkit.com/blog/</link>
 		{% for post in site.posts %}
 			<item>
