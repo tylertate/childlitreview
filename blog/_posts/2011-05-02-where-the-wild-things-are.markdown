@@ -4,7 +4,7 @@ title: Where the Wild Things Are
 ISBN-13: 978-0370007724
 author: Maurice Sendak
 illustrator: Maurice Sendak
-image: /blog/images/temp.jpg
+image: /blog/images/978-0370007724-a.jpg
 
 age: 1.5 years+
 time: 3 minutes
