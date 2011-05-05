@@ -4,7 +4,7 @@ title: The Way Back Home
 ISBN-13: 978-0007182329
 author: Oliver Jeffers
 illustrator: Oliver Jeffers
-image: /blog/images/978-0230742154-a.jpg
+image: /blog/images/978-0007182329-a.jpg
 
 age: 1.5 years+
 time: 3 minutes
