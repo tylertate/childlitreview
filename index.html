@@ -7,7 +7,7 @@ bodyId: home
 {% for post in site.categories.blog %}
 	<article>
 		<header>
-			<img src="{{ post.image }}" />
+			<img src="/blog/images/{{ post.ISBN-13 }}-a.jpg" width="830" height="300" />
 			<p class="on">Reviewed on {{ post.date | date: "%B %d, %Y" }}</p>
 			<p class="rating">{{ post.rating }}</p>
 			<h2>{{ post.title }}</h2>
@@ -26,6 +26,10 @@ bodyId: home
 			<p>View on <a href="{{ post.amazonus }}">Amazon.com</a> or <a href="{{ post.amazonuk }}">Amazon.co.uk</a>.</p>
 			
 			<section class="details">
+				<figure class="cover">
+					<img src="/blog/images/{{ post.ISBN-13 }}-b.jpg" />
+				</figure>
+				
 				<ul>
 					<li>
 						<h4>Minimum age:</h4>

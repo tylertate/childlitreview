@@ -151,11 +151,18 @@ article section .details {
   width: 101.19047619047619%;
   margin: 0 -0.5952380952380952%;
 }
+article section .details figure {
+  overflow: hidden;
+  float: left;
+  width: 23.809523809523807%;
+  margin: 0 0.5952380952380952%;
+  _display: inline;
+}
 article section .details ul {
   border-top: 1px dotted #CCC;
   overflow: hidden;
   float: left;
-  width: 65.47619047619048%;
+  width: 73.80952380952381%;
   margin: 0 0.5952380952380952%;
   _display: inline;
 }
