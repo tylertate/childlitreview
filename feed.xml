@@ -12,7 +12,7 @@ layout: rss
 				<title>{{ post.title }}</title>
 				<pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
 				<description>{{ post.content | xml_escape }}</description>
-				<link>http://childlitreview.com/</link>
+				<link>http://childlitreview.com{{ post.url }}</link>
 			</item>
 		{% endfor %}
 	</channel>

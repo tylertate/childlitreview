@@ -193,7 +193,10 @@ article section .details ul li h4 {
   font-weight: normal;
   color: #333;
 }
-article section .comments {
+article section p.back {
+  margin-bottom: 0.5em;
   margin-top: 2em;
+}
+article section .comments {
   margin-bottom: -2em;
 }
