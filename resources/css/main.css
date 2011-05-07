@@ -182,3 +182,7 @@ article section .details ul li h4 {
   font-weight: normal;
   color: #333;
 }
+article section .comments {
+  margin-top: 1.5em;
+  margin-bottom: -1.5em;
+}

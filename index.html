@@ -3,3 +3,7 @@ layout: book
 title: Children's Literature Review
 bodyId: home
 ---
+
+{% for post in site.categories.books %}
+	{{ content }}
+{% endfor %}
