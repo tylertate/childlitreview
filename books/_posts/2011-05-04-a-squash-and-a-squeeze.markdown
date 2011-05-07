@@ -1,10 +1,9 @@
 ---
-layout: general
+layout: book
 title: A Squash and a Squeeze
 ISBN-13: 978-0230742154
 author: Julia Donaldson
 illustrator: Axel Scheffler
-image: /blog/images/978-0230742154-a.jpg
 
 age: 1 year+
 time: 4 minutes

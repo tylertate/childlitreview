@@ -1,5 +1,5 @@
 ---
-layout: general
+layout: book
 title: Where the Wild Things Are
 ISBN-13: 978-0370007724
 author: Maurice Sendak
