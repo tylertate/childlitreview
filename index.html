@@ -7,10 +7,10 @@ bodyId: home
 {% for post in site.categories.books %}
 	<article>
 		<header>
-			<img src="/books/images/{{ post.ISBN-13 }}-a.jpg" width="830" height="300" />
+			<a href="http://childlitreview.com{{ post.url }}"><img src="/books/images/{{ post.ISBN-13 }}-a.jpg" width="830" height="300" /></a>
 			<p class="on">Reviewed on {{ post.date | date: "%B %d, %Y" }}</p>
 			<p class="rating">{{ post.rating }}</p>
-			<h2><a href="http://childlitreview.com/{{ post.url }}">{{ post.title }}</a></h2>
+			<h2><a href="http://childlitreview.com{{ post.url }}">{{ post.title }}</a></h2>
 			<p class="by">
 				{% if post.author == post.illustrator %}
 					<span class="author">Written &amp; Illustrated by {{ post.author }}</span>
@@ -74,7 +74,7 @@ bodyId: home
 			</section>
 
 			<section class="comments">
-				<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="childlitreview.com" num_posts="2" width="624"></fb:comments>
+				<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:comments href="http://childlitreview.com/{{ post.url }}" num_posts="2" width="624"></fb:comments>
 			</section>
 		</section>
 	</article>
