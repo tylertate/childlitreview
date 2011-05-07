@@ -44,6 +44,10 @@ body {
   margin: 0 0.4464285714285714%;
   _display: inline;
 }
+#mainbody #sidebar a#logo {
+  text-decoration: none;
+  color: white;
+}
 #mainbody #sidebar h1 {
   width: 8em;
   margin: 0 auto 1.5em auto;
@@ -190,6 +194,6 @@ article section .details ul li h4 {
   color: #333;
 }
 article section .comments {
-  margin-top: 1.5em;
-  margin-bottom: -1.5em;
+  margin-top: 2em;
+  margin-bottom: -2em;
 }
