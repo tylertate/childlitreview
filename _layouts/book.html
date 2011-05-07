@@ -6,68 +6,68 @@ bodyId: review
 
 <article>
 	<header>
-		<img src="/books/images/{{ post.ISBN-13 }}-a.jpg" width="830" height="300" />
-		<p class="on">Reviewed on {{ post.date | date: "%B %d, %Y" }}</p>
-		<p class="rating">{{ post.rating }}</p>
-		<h2><a href="http://childlitreview.com/{{ post.url }}">{{ post.title }}</a></h2>
+		<img src="/books/images/{{ page.ISBN-13 }}-a.jpg" width="830" height="300" />
+		<p class="on">Reviewed on {{ page.date | date: "%B %d, %Y" }}</p>
+		<p class="rating">{{ page.rating }}</p>
+		<h2><a href="http://childlitreview.com/{{ page.url }}">{{ page.title }}</a></h2>
 		<p class="by">
-			{% if post.author == post.illustrator %}
-				<span class="author">Written &amp; Illustrated by {{ post.author }}</span>
+			{% if page.author == page.illustrator %}
+				<span class="author">Written &amp; Illustrated by {{ page.author }}</span>
 			{% else %}
-				<span class="author">Written by {{ post.author }},</span>
-				<span class="illustrator">illustrated by {{ post.illustrator }}</span>
+				<span class="author">Written by {{ page.author }},</span>
+				<span class="illustrator">illustrated by {{ page.illustrator }}</span>
 			{% endif %}
 		</p>
 	</header>
 	<section class="content">
-		{{ post.content }}
+		{{ page.content }}
 		
 		<section class="details">
 			<figure class="cover">
-				<img src="/books/images/{{ post.ISBN-13 }}-b.jpg" width="140" />
+				<img src="/books/images/{{ page.ISBN-13 }}-b.jpg" width="140" />
 				<p>
 					<strong>View on:</strong><br/>
-					<a href="{{ post.amazonus }}">Amazon.com</a><br/>
-					<a href="{{ post.amazonuk }}">Amazon.co.uk</a>
+					<a href="{{ page.amazonus }}">Amazon.com</a><br/>
+					<a href="{{ page.amazonuk }}">Amazon.co.uk</a>
 				</p>
 			</figure>
 			
 			<ul>
 				<li>
 					<h4>Minimum age:</h4>
-					<p>{{ post.age }}</p>
+					<p>{{ page.age }}</p>
 				</li>
 				<li>
 					<h4>Reading time:</h4>
-					<p>{{ post.time }}</p>
+					<p>{{ page.time }}</p>
 				</li>
 				<li>
 					<h4>Book format:</h4>
-					<p>{{ post.format }}</p>
+					<p>{{ page.format }}</p>
 				</li>
 				<li>
 					<h4>Writing style:</h4>
-					<p>{{ post.style }}</p>
+					<p>{{ page.style }}</p>
 				</li>
 				<li>
 					<h4>Year of Publication:</h4>
-					<p>{{ post.published }}</p>
+					<p>{{ page.published }}</p>
 				</li>
 				<li>
 					<h4>Illustration Rating:</h4>
-					<p>{{ post.illustrationrating }} out of 5</p>
+					<p>{{ page.illustrationrating }} out of 5</p>
 				</li>
 				<li>
 					<h4>Story Rating:</h4>
-					<p>{{ post.storyrating }} out of 5</p>
+					<p>{{ page.storyrating }} out of 5</p>
 				</li>
 				<li>
 					<h4>Moral Rating:</h4>
-					<p>{{ post.moralrating }} out of 5</p>
+					<p>{{ page.moralrating }} out of 5</p>
 				</li>
 				<li>
 					<h4>Overall Rating:</h4>
-					<p>{{ post.rating }} out of 5</p>
+					<p>{{ page.rating }} out of 5</p>
 				</li>
 			</ul>
 		</section>
