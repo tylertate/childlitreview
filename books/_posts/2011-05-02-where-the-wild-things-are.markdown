@@ -25,6 +25,6 @@ amazonuk: http://www.amazon.co.uk/gp/product/0370007727/ref=as_li_tf_tl?ie=UTF8&
 
 The reading breezes by in just over three minutes. It's brevity and immersive visuals mean that my son, Galileo, at just 15 months old, regularly pulls this book off the shelf during our reading time.
 
-There are two words of caution with this book. First, the wild things with their horns, claws, and sharp teeth do look scary, and I could see them frightening some children. Secondly, at the beginning of the book Max talks back to his mother, saying "I'll eat you up" as he pretends to be one of the wild things. This results in Max being sent to his room, setting the stage for his imaginary adventure. Some parents may prefer not to provide this example of misbehavior to their children, despite the corresponding punishment.
+There are two words of caution with this book. First, the wild things with their horns, claws, and sharp teeth do look scary, and I could see them frightening some children. Secondly, at the beginning of the book Max talks back to his mother, saying "I'll eat you up" as he pretends to be one of the wild things. This results in Max being sent to his room, setting the stage for his imaginary adventure. Some parents may prefer not to provide this example of misbehaviour to their children, despite the corresponding punishment.
 
-In the end it's a beautiful story with art direction that is second to none. If only it weren't quite so scary and wasn't based on a premise of misbehavior.
+In the end it's a beautiful story with art direction that is second to none. If only it weren't quite so scary and wasn't based on a premise of misbehaviour.
