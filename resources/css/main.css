@@ -103,6 +103,7 @@ article {
   margin: 0 16.6% 4em 8.3%;
 }
 article header {
+  margin-right: -20%;
   margin-bottom: 1.5em;
   font-family: sans-serif;
 }
