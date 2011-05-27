@@ -20,9 +20,9 @@ amazonuk: http://www.amazon.co.uk/gp/product/0670913502/ref=as_li_ss_tl?ie=UTF8&
 ---
 
 <span></span>
-The plot of this story is simple: a group of neighbourhood dogs, led by none of than the small black-haired terrier named Hairy Maclary, walk down to the far end of town, only to be sent running back home with tucked tails after a close encounter with Scarface Claw, described as "the toughest tom in town."
+The plot of this story is simple: a group of neighbourhood dogs, led by none other than the small black-haired terrier named Hairy Maclary, walk down to the far end of town, only to be sent running back home with tucked tails after a close encounter with Scarface Claw, described as "the toughest tom in town."
 
-But the real joy of Lynley Dodd's books, of which this is his first, is the lyrical intensity of the text. A modern-day Doctor Seuss, Lynley's highly repetitive verses are packed to the brim with rhyme an alliteration, flowing off the tongue with delight. Immediately after the dogs receive their fright, for instance, the text goes like this:
+But the real joy of Lynley Dodd's books, of which this is his first, is the lyrical intensity of the text. A modern-day Doctor Seuss, Lynley's highly repetitive verses are packed to the brim with rhyme and alliteration, flowing off the tongue with delight. Immediately after the dogs receive their fright, for instance, the text goes like this:
 
 Off with a yowl  
 a wail and a howl,  
